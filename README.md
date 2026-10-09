@@ -1,5 +1,10 @@
 # React Counter App
 
+## Preview
+
+![React Counter App Screenshot](./public/counter-app.png)
+
+
 A simple and responsive Counter App built using React and Vite. This project was created as part of my React revision to practice React fundamentals.
 
 ## Features
