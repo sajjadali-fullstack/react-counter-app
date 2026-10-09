@@ -1,16 +1,79 @@
-# React + Vite
+# React Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Counter App built using React and Vite. This project was created as part of my React revision to practice React fundamentals.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Increment the counter
+* Decrement the counter
+* Reset the counter to zero
+* Dynamic messages based on the counter value
+* Responsive layout
+* Functional state updates using React's `useState` hook
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript (ES6+)
+* CSS3
+* Vite
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+Counter-react-app/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── CounterApp/
+│   │   ├── CounterApp.jsx
+│   │   └── CounterApp.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+```
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Counter-react-app
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+## What I Practiced
+
+* Creating reusable React components
+* Managing state with `useState`
+* Handling click events with `onClick`
+* Updating state using functional updates
+* Organizing component-specific and global CSS
+
+## Purpose
+
+This project is part of my ongoing React revision and frontend development practice.
